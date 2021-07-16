@@ -1,0 +1,28 @@
+.home {
+  text-align: center;
+
+  .loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 150px;
+    pointer-events: none;
+    margin-left: -75px;
+    margin-top: -75px;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .loader {
+    animation: loader-spin infinite 5s linear;
+  }
+}
+
+@keyframes loader-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
