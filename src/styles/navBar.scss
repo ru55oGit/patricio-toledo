@@ -1,0 +1,24 @@
+.navbar {
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightblue;
+  transition: all .9s ease-in;
+  display: none;
+  height: 60px;
+
+}
+//IMPORTANT
+.scrolled {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: lightblue;
+  display: flex;
+  z-index: 1;
+}
+
+.logo img {
+  width: 50px;
+}

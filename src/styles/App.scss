@@ -1,15 +1,5 @@
 .home {
   text-align: center;
-
-  .loader {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 150px;
-    pointer-events: none;
-    margin-left: -75px;
-    margin-top: -75px;
-  }
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -1,0 +1,23 @@
+.personalData {
+  background: url(../images/bk-bsas.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+
+  .dataContainer {
+    width: 25%;
+    height: 70vh;
+    position: relative;
+    top: 5%;
+    left: 5%;
+    padding: 20px;
+    border-radius: 15px;
+    background: url(../images/opacity-75.png) repeat transparent;
+
+    .profilePhoto {
+      width: 50%;
+      border-radius: 50%;
+      border: 4px solid black;
+    }
+  }
+}

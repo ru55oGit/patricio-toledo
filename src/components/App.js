@@ -1,12 +1,12 @@
-import loader from '../images/loader.svg';
 import '../styles/App.scss';
+import NavBar from './NavBar';
+import PersonalData from './PersonalData';
 
 function App() {
   return (
     <div className="home">
-      <header className="header">
-        <img src={loader} className="loader" alt="loader" />
-      </header>
+        <NavBar />
+        <PersonalData />
     </div>
   );
 }
