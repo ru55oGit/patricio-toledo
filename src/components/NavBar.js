@@ -4,7 +4,7 @@ import '../styles/navBar.scss';
 import loader from '../images/loader.svg';
 
 const Navbar=() => {
-  const [scrolled,setScrolled]=React.useState(false);
+  const [scrolled,setScrolled] = React.useState(false);
   const handleScroll = () => {
     const offset = window.scrollY;
     if (offset > 60 ) {

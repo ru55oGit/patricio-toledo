@@ -1,23 +1,41 @@
 .personalData {
-  background: url(../images/bk-bsas.jpg) no-repeat center;
-  background-size: cover;
   width: 100%;
   height: 100vh;
+  position: relative;
+
+  .carousel {
+    .carousel-control-prev,
+    .carousel-control-next {
+      display: none;
+    }
+  }
 
   .dataContainer {
-    width: 25%;
-    height: 70vh;
-    position: relative;
+    height: 80vh;
+    position: absolute;
     top: 5%;
     left: 5%;
     padding: 20px;
     border-radius: 15px;
     background: url(../images/opacity-75.png) repeat transparent;
+    z-index: 1;
 
     .profilePhoto {
       width: 50%;
       border-radius: 50%;
       border: 4px solid black;
+    }
+
+    p {
+      opacity: 0.8;
+      border-radius: 4px;
+      background: #f5f5f5;
+      padding: 7px 7px;
+
+      a {
+        color: #428bca;
+        text-decoration: none;
+      }
     }
   }
 }
