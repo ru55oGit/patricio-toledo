@@ -19,10 +19,10 @@ const PersonalData = () => {
         </Col>
       </Row>
       <Row>
-        <Col lg={6} className={window.innerWidth <= 414? 'titleContainer odd':'titleContainer even'}>
+        <Col lg={6} className={window.innerWidth <= 767? 'titleContainer odd':'titleContainer even'}>
           <span>Experiencia profesional</span>
         </Col>
-        <Col lg={6} className={window.innerWidth <= 414? 'infoContainer even':'infoContainer odd'}>
+        <Col lg={6} className={window.innerWidth <= 767? 'infoContainer even':'infoContainer odd'}>
           <Row>
             <Col lg={12}>
               <b>Desarrollador Front End - Wunderman Thompson</b><br/>
@@ -56,10 +56,10 @@ const PersonalData = () => {
         </Col>
       </Row>
       <Row>
-        <Col lg={6} className={window.innerWidth <= 414? 'titleContainer odd':'titleContainer odd'}>
+        <Col lg={6} className={window.innerWidth <= 767? 'titleContainer odd':'titleContainer odd'}>
           <span>Estudios</span>
         </Col>
-        <Col lg={6} className={window.innerWidth <= 414? 'infoContainer even':'infoContainer even'}>
+        <Col lg={6} className={window.innerWidth <= 767? 'infoContainer even':'infoContainer even'}>
         <Row>
             <Col lg={12}>
               <b>Ing. en Informatica</b><br/>
