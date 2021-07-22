@@ -3,7 +3,6 @@
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
-  background-color: lightblue;
   transition: all .9s ease-in;
   display: none;
   height: 60px;
@@ -11,7 +10,7 @@
 
   b {
     font-size: 2rem;
-    color: #202c72;
+    color: lightblue;
   }
 }
 
@@ -19,7 +18,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  background-color: lightblue;
+  background-color: #202c72;
   display: flex;
   z-index: 10;
 
