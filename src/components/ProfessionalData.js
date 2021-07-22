@@ -8,10 +8,10 @@ const PersonalData = () => {
   return (
     <Container className="professionalData" fluid>
       <Row>
-        <Col lg={6} className="titleContainer odd">
+        <Col md={6} lg={6} className="titleContainer odd">
           <span>Perfil Personal y Objetivos</span>
         </Col>
-        <Col lg={6} className="infoContainer even">
+        <Col md={6} lg={6} className="infoContainer even">
           <p>
             <i>Responsable, proactivo, resolutivo, empático y negociador.  Muy buen manejo de relaciones interpersonales y trabajo en equipo. La flexibilidad al cambio me permite estar siempre dispuesto a nuevos desafíos. 
             Objetivos: Lograr un crecimiento profesional y económico aportando mis conocimientos, adquirir nuevos e integrar un equipo de trabajo donde todos podamos desarrollar nuestro potencial con el fin de poder aspirar a nuevos objetivos.</i>
@@ -19,10 +19,10 @@ const PersonalData = () => {
         </Col>
       </Row>
       <Row>
-        <Col lg={6} className={window.innerWidth <= 767? 'titleContainer odd':'titleContainer even'}>
+        <Col md={6} lg={6} className={window.innerWidth <= 414? 'titleContainer odd':'titleContainer even'}>
           <span>Experiencia profesional</span>
         </Col>
-        <Col lg={6} className={window.innerWidth <= 767? 'infoContainer even':'infoContainer odd'}>
+        <Col md={6} lg={6} className={window.innerWidth <= 414? 'infoContainer even':'infoContainer odd'}>
           <Row>
             <Col lg={12}>
               <b>Desarrollador Front End - Wunderman Thompson</b><br/>
@@ -56,10 +56,10 @@ const PersonalData = () => {
         </Col>
       </Row>
       <Row>
-        <Col lg={6} className={window.innerWidth <= 767? 'titleContainer odd':'titleContainer odd'}>
+        <Col md={6} lg={6} className={window.innerWidth <= 414? 'titleContainer odd':'titleContainer odd'}>
           <span>Estudios</span>
         </Col>
-        <Col lg={6} className={window.innerWidth <= 767? 'infoContainer even':'infoContainer even'}>
+        <Col md={6} lg={6} className={window.innerWidth <= 414? 'infoContainer even':'infoContainer even'}>
         <Row>
             <Col lg={12}>
               <b>Ing. en Informatica</b><br/>
