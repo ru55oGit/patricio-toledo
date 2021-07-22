@@ -1,15 +1,27 @@
 //Navbar.js
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Container, Row, Col } from 'react-bootstrap'; 
 
 import '../styles/professionalData.scss';
 
 const PersonalData = () => {
+  const [resized,setResized] = React.useState(false);
+  const handleResize = () => {
+    if (window.innerWidth <= 767) {
+      setResized(true);
+    } else {
+      setResized(false);
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener('resize', handleResize)
+  })
   return (
     <Container className="professionalData" fluid>
       <Row>
         <Col md={6} lg={6} className="titleContainer odd">
-          <span>Perfil Personal y Objetivos</span>
+          <button>Perfil Personal y Objetivos</button>
         </Col>
         <Col md={6} lg={6} className="infoContainer even">
           <p>
@@ -19,10 +31,10 @@ const PersonalData = () => {
         </Col>
       </Row>
       <Row>
-        <Col md={6} lg={6} className={window.innerWidth <= 414? 'titleContainer odd':'titleContainer even'}>
-          <span>Experiencia profesional</span>
+        <Col md={6} lg={6} className={resized? 'titleContainer odd':'titleContainer even'}>
+          <button>Experiencia profesional</button>
         </Col>
-        <Col md={6} lg={6} className={window.innerWidth <= 414? 'infoContainer even':'infoContainer odd'}>
+        <Col md={6} lg={6} className={resized? 'infoContainer even':'infoContainer odd'}>
           <Row>
             <Col lg={12}>
               <b>Desarrollador Front End - Wunderman Thompson</b><br/>
@@ -56,10 +68,10 @@ const PersonalData = () => {
         </Col>
       </Row>
       <Row>
-        <Col md={6} lg={6} className={window.innerWidth <= 414? 'titleContainer odd':'titleContainer odd'}>
-          <span>Estudios</span>
+        <Col md={6} lg={6} className={resized? 'titleContainer odd':'titleContainer odd'}>
+          <button>Estudios</button>
         </Col>
-        <Col md={6} lg={6} className={window.innerWidth <= 414? 'infoContainer even':'infoContainer even'}>
+        <Col md={6} lg={6} className={resized? 'infoContainer even':'infoContainer even'}>
         <Row>
             <Col lg={12}>
               <b>Ing. en Informatica</b><br/>
