@@ -1,4 +1,4 @@
-import '../styles/app.scss';
+import '../styles/App.scss';
 import NavBar from './NavBar';
 import PersonalData from './PersonalData';
 import ProfessionalData from './ProfessionalData';
