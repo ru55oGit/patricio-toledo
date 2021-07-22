@@ -26,13 +26,7 @@ const Navbar=() => {
 
   return (
     <header className={navbarClasses.join(" ")}>
-        <div className="logo">
-          <img src={loader} className="loader" alt="loader" />
-        </div>
-        <h1>Patricio Toledo</h1>
-        <nav className="navigation">
-            Links
-        </nav>
+      <b>Patricio Toledo</b>
     </header>
   )
 };

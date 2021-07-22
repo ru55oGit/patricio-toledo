@@ -1,0 +1,30 @@
+.professionalData {
+  padding: 0;
+  color: #202c72;
+
+  .titleContainer,
+  .infoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+
+  .titleContainer {
+    font-size: 3rem;
+  }
+
+  .infoContainer {
+    b {
+      font-size: 1.7rem;
+    }
+  }
+
+  .odd {
+    background-color: lightblue;
+  }
+
+  .even {
+    background-color: white;
+  }
+}
