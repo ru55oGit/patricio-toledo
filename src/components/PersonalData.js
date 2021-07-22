@@ -21,7 +21,7 @@ const PersonalData = () => {
           </Carousel.Item>
         </Carousel>
 
-        <Col sm={12} lg={3} className="dataContainer">
+        <Col sm={12} lg={4} className="dataContainer">
           <Row>
             <Col sm={6} lg={12}>
               <img src={profilePhoto} className="profilePhoto" alt="Foto Patricio Toledo" />
