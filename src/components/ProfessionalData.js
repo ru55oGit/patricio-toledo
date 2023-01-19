@@ -37,30 +37,37 @@ const PersonalData = () => {
         <Col md={6} lg={6} className={resized? 'infoContainer even':'infoContainer odd'}>
           <Row>
             <Col lg={12}>
+              <b>Desarrollador Front End - Clip México</b><br/>
+              <span>Agosto 2021 - Actualidad</span><br/>
+              <p>Tecnologías:<br/>
+                Javascript | EMACScript 6 | React | Nextjs | Redux | Firebase | Nodejs | Css3 | Sass | Bootstrap | GIT | NPM | YARN | NVM
+              </p>
+            </Col>
+            <Col lg={12}>
               <b>Desarrollador Front End - Wunderman Thompson</b><br/>
-              <span>Mayo 2014 - Actualidad</span><br/>
-              <p>Tecnologias:<br/>
+              <span>Mayo 2014 - Agosto 2021</span><br/>
+              <p>Tecnologías:<br/>
                 Javascript | EMACScript 6 | React | React Native | Android | Redux | AEM | Expo | Facebook Connect | Firebase | Nodejs | Css3 | Sass | Bootstrap | GIT | NPM | YARN | NVM
               </p>
             </Col>
             <Col lg={12}>
               <b>Desarrollador Front End - QBK Consulting</b><br/>
               <span>Septiembre 2013 - Abril 2014</span><br/>
-              <p>Tecnologias:<br/>
+              <p>Tecnologías:<br/>
                 Java | Struts | Javascript | CSS | HTML | SVN
               </p>
             </Col>
             <Col lg={12}>
               <b>Desarrollador Front End - ArtDecode SRL</b><br/>
               <span>Enero 2013 - Septiembre 2013</span><br/>
-              <p>Tecnologias:<br/>
+              <p>Tecnologías:<br/>
                 Java | Struts | Javascript | CSS | HTML | SVN
               </p>
             </Col>
             <Col lg={12}>
               <b>Desarrollador Java - Snoop Consulting SRL</b><br/>
               <span>Julio 2008 - Enero 2013</span><br/>
-              <p>Tecnologias:<br/>
+              <p>Tecnologías:<br/>
                 Struts 2 | Spring | Maven | Tomcat | Jquery | HTML | XHTML | CSS3 | Javascript | AJAX.
               </p>
             </Col>

@@ -17,14 +17,18 @@
     }
 
     .slide-1 {
-      background: url(../images/bk-bsas.jpg) no-repeat transparent;
+      background: url(../images/bk-obel.jpg) no-repeat transparent;
     }
 
     .slide-2 {
-      background: url(../images/bk-rosa.jpg) no-repeat transparent;
+      background: url(../images/bk-bsas.jpg) no-repeat transparent;
     }
 
     .slide-3 {
+      background: url(../images/bk-rosa.jpg) no-repeat transparent;
+    }
+
+    .slide-4 {
       background: url(../images/bk-pemo.jpg) no-repeat transparent;
     }
 
@@ -74,7 +78,6 @@
       border: 4px solid black;
     }
 
-    button,
     p {
       opacity: 0.8;
       border-radius: 4px;
