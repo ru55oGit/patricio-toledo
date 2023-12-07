@@ -35,7 +35,7 @@ const PersonalData = () => {
               <h1>Carolina Toledo</h1>
             </Col>
             <Col md={6} lg={12}>
-              <p>Fecha de Nac: 28-2-82</p>
+              <p>Fecha de Nac: 10-04-79</p>
               <p>Dirección: Av. Dorrego 898 9ºC Torre 2</p>
               <p>Ciudad Autónoma de Buenos Aires, Argentina 🇦🇷</p>
               <p>
