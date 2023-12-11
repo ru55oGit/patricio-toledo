@@ -30,25 +30,25 @@ const PersonalData = () => {
               <img
                 src={profilePhoto}
                 className="profilePhoto"
-                alt="Foto Patricio Toledo"
+                alt="Foto Valeria Carolina Toledo"
               />
-              <h1>Carolina Toledo</h1>
+              <h1>Valeria Carolina Toledo</h1>
             </Col>
             <Col md={6} lg={12}>
-              <p>Fecha de Nac: 10-04-79</p>
-              <p>Dirección: Av. Dorrego 898 9ºC Torre 2</p>
-              <p>Ciudad Autónoma de Buenos Aires, Argentina 🇦🇷</p>
+              <p>Fecha de Nac: 10-4-79</p>
+              <p>Dirección: El Pórtico 28</p>
+              <p>Ituzaingo, Buenos Aires, Argentina 🇦🇷</p>
               <p>
-                <a href="mailto:patricio.ezequiel.toledo@gmail.com">
-                  patricio.ezequiel.toledo@gmail.com
+                <a href="mailto:vcarolinatoledo@gmail.com">
+                  vcarolinatoledo@gmail.com
                 </a>
               </p>
               <p>
-                Tel: <a href="tel:+54 11 2185 3867">+54 11 2185 3867</a>
+                Tel: <a href="tel:+54 11 5830 8097">+54 11 5830 8097</a>
               </p>
               <p>
                 <a
-                  href="https://www.linkedin.com/in/patricio-ezequiel-toledo-79745515/"
+                  href="https://www.linkedin.com/in/valeria-carolina-toledo-b07174262/"
                   target="_blank"
                 >
                   Linkedin
