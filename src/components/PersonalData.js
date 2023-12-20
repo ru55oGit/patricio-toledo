@@ -36,8 +36,7 @@ const PersonalData = () => {
             </Col>
             <Col md={6} lg={12}>
               <p>Fecha de Nac: 10-4-79</p>
-              <p>Dirección: El Pórtico 28</p>
-              <p>Ituzaingo, Buenos Aires, Argentina 🇦🇷</p>
+              <p>Hurlingham, Buenos Aires, Argentina 🇦🇷</p>
               <p>
                 <a href="mailto:vcarolinatoledo@gmail.com">
                   vcarolinatoledo@gmail.com
